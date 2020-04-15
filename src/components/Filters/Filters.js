@@ -8,32 +8,25 @@ const Filters = props => {
   return (
     <div className={classes.filters}>
       <ul>
-        <li>
-          <a
-            href='#top_movies'
-            onClick={() => props.changeFilter('top_rated')}
-            className={filter === 'top_rated' ? classes.active : ''}
-          >
-            #top movies
-          </a>
+        <li
+          onClick={() => props.changeFilter('top_rated')}
+          className={filter === 'top_rated' ? classes.active : ''}
+        >
+          #top movies
         </li>
-        <li>
-          <a
-            href='#upcoming_movies'
-            onClick={() => props.changeFilter('upcoming')}
-            className={filter === 'upcoming' ? classes.active : ''}
-          >
-            #upcoming movies
-          </a>
+        <li
+          href='#upcoming_movies'
+          onClick={() => props.changeFilter('upcoming')}
+          className={filter === 'upcoming' ? classes.active : ''}
+        >
+          #upcoming movies
         </li>
-        <li>
-          <a
-            href='#now_playing_movies'
-            onClick={() => props.changeFilter('now_playing')}
-            className={filter === 'now_playing' ? classes.active : ''}
-          >
-            #now playing movies
-          </a>
+        <li
+          href='#now_playing_movies'
+          onClick={() => props.changeFilter('now_playing')}
+          className={filter === 'now_playing' ? classes.active : ''}
+        >
+          #now playing movies
         </li>
       </ul>
     </div>

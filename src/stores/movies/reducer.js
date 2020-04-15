@@ -7,7 +7,8 @@ const initialState = {
   loading: false,
   errors: false,
   searchQuery: '',
-  searchResult: []
+  searchResult: [],
+  favoriteMovies: []
 };
 
 const reducer = (state = initialState, action) => {

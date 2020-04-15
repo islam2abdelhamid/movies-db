@@ -22,7 +22,17 @@ const Movies = props => {
         (props.errors && (
           <h1 className={classes.textWhite}>Server Error :(</h1>
         )) ||
-        props.movies.map(movie => <Movie key={movie.id} {...movie} />)}
+        props.movies.map(movie => (
+          <Movie
+            key={movie.id}
+            movie={{
+              id: movie.id,
+              title: movie.title,
+              poster_path: movie.poster_path,
+              vote_average: movie.vote_average
+            }}
+          />
+        ))}
     </div>
   );
 };
