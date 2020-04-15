@@ -1,0 +1,63 @@
+.movieCard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+.cardOverly {
+  transition: 0.5s ease opacity;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000009e;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.heart {
+  color: #fff;
+  font-size: 5em;
+  cursor: pointer;
+}
+.heartRed {
+  color: rgb(255, 31, 31);
+  font-size: 5em;
+  cursor: pointer;
+}
+
+.movieCard:hover .cardOverly {
+  opacity: 1;
+}
+
+.textCenter {
+  text-align: center;
+}
+.movieBody {
+  position: absolute;
+  bottom: 2em;
+  color: #fff;
+}
+.star {
+  font-size: 1.5em;
+  color: #f5b50a;
+}
+
+.movieImg::after {
+  box-shadow: inset -5px -100px 100px -15px #000000;
+  -webkit-box-shadow: inset -5px -100px 100px -15px #000000;
+  -moz-box-shadow: inset -5px -100px 100px -15px #000000;
+  -o-box-shadow: inset -5px -100px 100px -15px #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+}

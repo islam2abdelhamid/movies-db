@@ -1,0 +1,40 @@
+.topSearch {
+  margin: 2em 2.5em;
+  border: 2px solid var(--main-text-color);
+  border-radius: 1em;
+}
+
+.topSearch form {
+  display: flex;
+  position: relative;
+}
+
+.textInput {
+  height: 3em;
+  padding: 0 1em;
+  border: none;
+  border-radius: 1em;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-weight: 300;
+  width: 100%;
+}
+
+.textInput::placeholder {
+  color: #909090;
+}
+
+.submitInput {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  background-image: url(./topsearch.png);
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 50%;
+}

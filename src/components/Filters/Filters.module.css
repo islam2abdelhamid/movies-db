@@ -1,0 +1,13 @@
+.filters {
+  background-color: var(--sub-bg-color);
+}
+.filters a {
+  color: var(--main-text-color);
+  text-transform: uppercase;
+  margin-right: 1.5em;
+}
+.filters a.active,
+.filters a:hover {
+  color: var(--sub-text-color);
+  text-transform: uppercase;
+}

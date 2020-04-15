@@ -1,0 +1,28 @@
+.navbar {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2.5em;
+}
+
+.navbar .navList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navList li {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.navbar .navList a {
+  color: var(--main-text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar .navList a.active,
+.navbar .navList a:hover {
+  color: var(--sub-text-color);
+}

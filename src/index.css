@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* vars */
+:root {
+  --main-bg-color: #0f2133;
+  --sub-bg-color: #020d18;
+  --main-text-color: #abb7c4;
+  --sub-text-color: #dcf836;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* global css */
+html {
+  font-size: 16px;
+  background-color: var(--sub-bg-color);
 }
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+/* end of global css*/
+
+
+
+
+/* end of header */
+
+/* movies */

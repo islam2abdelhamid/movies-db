@@ -1,0 +1,5 @@
+export const FETCH_MOVIES = 'FETCH_MOVIES';
+export const FETCH_STARTED = 'FETCH_STARTED';
+export const FETCH_SUCCEEDED = 'FETCH_SUCCEEDED';
+export const FETCH_FAILED = 'FETCH_FAILED';
+export const SEARCH_MOVIE = 'SEARCH_MOVIE';
